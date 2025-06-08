@@ -49,7 +49,6 @@ features:
     title: 加入星创StarShineMC
     details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界，期待你的加入！</small>'
     link: /about
-
 ---
 
 <!-- 贡献者区域 -->
@@ -86,20 +85,19 @@ features:
   gap: 2em;
   margin: 2.5em 0 1.5em 0;
   justify-content: center;
-  background: linear-gradient(135deg, #f3f4f6 80%, #e0e7ef 100%);
+  background: var(--vp-c-bg-soft);
   border-radius: 18px;
   box-shadow: 0 6px 24px 0 #0001;
   padding: 2em 1em 1.5em 1em;
 }
 .contributor-group {
-  background: #fff;
+  background: var(--vp-c-bg);
   border-radius: 14px;
   padding: 1.2em 2.2em 1.5em 2.2em;
   min-width: 210px;
   box-shadow: 0 4px 18px 0 #0002;
   transition: box-shadow 0.2s;
   margin-bottom: 1em;
-  border: 1.5px solid #e3e8f0;
 }
 .contributor-group:hover {
   box-shadow: 0 8px 32px 0 #0003;
@@ -107,55 +105,53 @@ features:
 .contributor-group h3 {
   margin-top: 0;
   font-size: 1.18em;
-  color: #2c3e50;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  gap: 0.4em;
-  border-bottom: 1.5px solid #e0e0e0;
-  padding-bottom: 0.3em;
-  margin-bottom: 0.7em;
+color: var(--vp-c-text);
+letter-spacing: 0.02em;
+display: flex;
+align-items: center;
+gap: 0.4em;
+border-bottom: 1.5px solid var(--vp-c-divider);
+padding-bottom: 0.3em;
+margin-bottom: 0.7em;
 }
 .contributor-icon {
-  font-size: 1.3em;
+    font-size: 1.3em;
 }
 .contributor-group ul {
-  margin: 0.5em 0 0 0;
-  padding: 0;
-  list-style: none;
+    margin: 0.5em 0 0 0;
+    padding: 0;
+    list-style: none;
 }
 .contributor-group li {
-  display: flex;
-  align-items: center;
-  gap: 0.7em;
-  margin-bottom: 0.5em;
-  font-size: 1em;
-  color: #444;
-  padding-left: 0.2em;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    color: var(--vp-c-text-light);
+    padding-left: 0.2em;
 }
 .avatar {
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #e0e7ff 60%, #c7d2fe 100%);
-  display: inline-block;
-  margin-right: 0.1em;
-  box-shadow: 0 1px 4px #0001;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--vp-c-bg-soft) 60%, var(--vp-c-bg) 100%);
+    display: inline-block;
+    margin-right: 0.1em;
+    box-shadow: 0 1px 4px var(--vp-c-shadow);
 }
 @media (max-width: 900px) {
-  .contributors.unified-style {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 1.2em 0.5em 1em 0.5em;
-  }
-  .contributor-group {
-    min-width: unset;
-    width: 100%;
-  }
+    .contributors.unified-style {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1.2em 0.5em 1em 0.5em;
+    }
+    .contributor-group {
+        min-width: unset;
+        width: 100%;
+    }
 }
-</style>
 
-<style>
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);
