@@ -28,7 +28,7 @@ features:
   - icon: 👥
     title: 玩家社区
     details: 参与社区讨论、活动与分享，结识志同道合的伙伴，畅聊游戏与生活。
-    link: /community
+    link: https://qm.qq.com/q/yCemxvimCQ
     linkText: 加入社区
   - icon: 🛠️
     title: 资源下载
