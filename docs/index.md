@@ -49,6 +49,13 @@ features:
     title: 加入星创StarShineMC
     details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界，期待你的加入！</small>'
     link: /about
+
+## 服务器内容展示（预留）
+
+![主城全景](/images/placeholder1.png)
+![活动现场](/images/placeholder2.png)
+<!-- 可继续添加图片 -->
+
 ---
 
 <style>
@@ -67,5 +74,65 @@ features:
   display: block;
   margin-top: 2em;
   text-align: right;
+}
+
+.server-gallery {
+  margin: 3em 0 2em 0;
+  padding: 1.5em 1em 1em 1em;
+  background: linear-gradient(135deg, #f3f4f6 80%, #e0e7ef 100%);
+  border-radius: 18px;
+  box-shadow: 0 6px 24px 0 #0001;
+  text-align: center;
+}
+.server-gallery h2 {
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+  color: #2c3e50;
+}
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+.gallery-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #0001;
+  padding: 0.7em 0.7em 0.5em 0.7em;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.gallery-item:hover {
+  box-shadow: 0 6px 24px #0002;
+}
+.gallery-item img {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+.gallery-item span {
+  font-size: 0.98em;
+  color: #555;
+}
+@media (max-width: 700px) {
+  .gallery-list {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+  .gallery-item {
+    width: 98%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .gallery-item img {
+    width: 96%;
+    height: 120px;
+  }
 }
 </style>
