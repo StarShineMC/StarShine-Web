@@ -51,6 +51,7 @@ features:
     link: /about
 ---
 
+<style>
 
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
