@@ -49,13 +49,6 @@ features:
     title: 加入星创StarShineMC
     details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界，期待你的加入！</small>'
     link: /about
-
-## 服务器内容展示（预留）
-
-##![主城全景](/images/placeholder1.png)
-##![活动现场](/images/placeholder2.png)
-<!-- 可继续添加图片 -->
-
 ---
 
 <style>
