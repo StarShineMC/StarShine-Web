@@ -19,7 +19,7 @@ declare module 'vitepress' {
        */
       comment?: {
         /** github 仓库地址 */
-        repo: `Xk233a/StarShine-Web`
+        repo: Xk233a/StarShine-Web
         /** giscus 仓库 ID */
         repoId: R_kgDOOoDDWw
         /** Discussion 分类 */
