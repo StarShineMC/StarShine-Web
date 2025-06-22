@@ -12,7 +12,7 @@ export default defineConfig({
 
   lang: 'zh-CN',
   title: '星光StarShine',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  description: '专注于现代城市建筑与真实铁路交通规划，基于Fabric 1.20.1高优化环境运行。核心特色：深度整合MTR地铁模拟系统实现真实轨道规划，WorldEdit快速建造支持中国地标复刻。采用审核制社群管理，保障高质量建筑设计，提供标准化车站指南及建造资源包。加入中文玩家社区，参与城市联建计划与交通网络设计。',
   head,
 
   lastUpdated: true,
