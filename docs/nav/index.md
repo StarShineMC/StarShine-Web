@@ -4,9 +4,7 @@
 
 ## 公告列表
 
-- [2025-06-26 服务器例行维护公告](docs/news/2025-06-26-maintenance.md)
-- [2025-06-20 夏季活动开启公告](docs/news/2025-06-20-summer-event.md)
-
+- [📢 试行：车站建设推荐性标准](docs/notice/index.md)
 > 请点击具体公告标题查看详情。
 
 如需发布新公告，请在 `docs/news/` 目录下新建对应的 Markdown 文件，并在本目录中添加链接。
