@@ -14,8 +14,13 @@ hero:
       link: https://qm.qq.com/q/yCemxvimCQ
     - text: 资源下载中心
       link: https://pan.1fu.top/
-video:
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114937317820448&bvid=BV1s68dztE7x&cid=31364350797&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+---
+
+<div style="margin-bottom: 2em;">
+  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114937317820448&bvid=BV1s68dztE7x&cid=31364350797&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%;max-width:720px;height:400px;display:block;margin:0 auto;"></iframe>
+</div>
+
 features:
   - icon: 🏰
     title: 服务器介绍
@@ -72,11 +77,12 @@ features:
 }
 
 .m-home-layout .features .item {
-  background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: rgba(255, 255, 255, 0.35) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08) !important;
+  border: 1px solid rgba(255,255,255,0.18) !important;
 }
 </style>
 
