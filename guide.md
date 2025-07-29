@@ -64,7 +64,7 @@ export const nav: DefaultTheme.Config['nav'] = [
 ```ts
 export default defineConfig({
     ---
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }], //社交链接
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Xk233a/StarShine-Web' }], //社交链接
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
@@ -146,7 +146,7 @@ Nav 页本身属于 MD 文件渲染，因此除引用的 data 文件用于数据
 <br />
 
 ::: tip
-该导航由 [maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+该导航由 [maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/Xk233a/StarShine-Web>
 :::  //引用Notes提示块
 ```
 
