@@ -34,7 +34,7 @@ features:
     title: 资源下载
     details: 提供客户端、补丁、材质包等相关资源，助你畅玩服务器。
     link: /
-    linkText: 没写
+    linkText: 加群下载
   - icon: 📢
     title: 最新公告
     details: 获取服务器最新动态、活动与维护公告，第一时间掌握重要信息。
@@ -67,5 +67,14 @@ features:
   display: block;
   margin-top: 2em;
   text-align: right;
+}
+</style>
+
+<style>
+body {
+  background: url('/bg.png') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.98;
+  z-index: -1;
 }
 </style>
