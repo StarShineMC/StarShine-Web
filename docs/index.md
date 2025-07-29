@@ -15,6 +15,10 @@ hero:
     - text: 资源下载中心
       link: https://pan.1fu.top/
 
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; max-width: 100vw; margin: 2em 0;">
+  <iframe style="aspect-ratio: 16/9; width: 100%; max-width: 720px; min-width: 320px; min-height: 200px; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); border: none;" src="//player.bilibili.com/player.html?isOutside=true&aid=114937317820448&bvid=BV1s68dztE7x&cid=31364350797&p=1" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
+</div>
+
 features:
   - icon: 🏰
     title: 服务器介绍
@@ -51,10 +55,6 @@ features:
     details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界，期待你的加入！</small>'
     link: /
 ---
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; max-width: 100vw; margin: 2em 0;">
-  <iframe style="aspect-ratio: 16/9; width: 100%; max-width: 720px; min-width: 320px; min-height: 200px; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); border: none;" src="//player.bilibili.com/player.html?isOutside=true&aid=114937317820448&bvid=BV1s68dztE7x&cid=31364350797&p=1" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
-</div>
 
 <style>
 
