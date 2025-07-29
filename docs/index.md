@@ -15,8 +15,6 @@ hero:
     - text: 资源下载中心
       link: https://pan.1fu.top/
 
----
-
 <div style="margin-bottom: 2em;">
   <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114937317820448&bvid=BV1s68dztE7x&cid=31364350797&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%;max-width:720px;height:400px;display:block;margin:0 auto;"></iframe>
 </div>
