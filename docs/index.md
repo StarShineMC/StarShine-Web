@@ -70,6 +70,14 @@ features:
   margin-top: 2em;
   text-align: right;
 }
+
+.m-home-layout .features .item {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
 </style>
 
 <style>
