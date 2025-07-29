@@ -38,7 +38,7 @@ features:
   - icon: 📢
     title: 最新公告
     details: 获取服务器最新动态、活动与维护公告，第一时间掌握重要信息。
-    link: /docs/news/
+    link: /docs/ZNPCsPlus
     linkText: 查看公告
   - icon: 💬
     title: 联系与反馈
