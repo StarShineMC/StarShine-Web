@@ -1,7 +1,7 @@
 layout: home
 layoutClass: 'm-home-layout'
 hero:
-  name: 🥔→🚀 星创StarShineMC
+  name: 星创StarShineMC
   text: StarShineMC 服务器官网
   tagline: 超平衡生存 × 科技魔法融合 | 免费建筑扶持计划 | 从生存到创造的平滑过渡
   image:
