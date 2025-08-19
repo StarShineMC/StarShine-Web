@@ -1,64 +1,62 @@
----
 layout: home
 layoutClass: 'm-home-layout'
-
 hero:
-  name: 星创StarShineMC
+  name: 🥔→🚀 星创StarShineMC
   text: StarShineMC 服务器官网
-  tagline: 加入属于你的 Minecraft 世界，体验创造与冒险的乐趣！
+  tagline: 超平衡生存 × 科技魔法融合 | 免费建筑扶持计划 | 从生存到创造的平滑过渡
   image:
     src: /logo.png
     alt: 星创StarShineMC
   actions:
     - text: 立即加入服务器
       link: https://qm.qq.com/q/yCemxvimCQ
-    - text: 资源下载中心
-      link: https://pan.1fu.top/
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; max-width: 100vw; margin: 2em 0;">
-  <iframe style="aspect-ratio: 16/9; width: 100%; max-width: 720px; min-width: 320px; min-height: 200px; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); border: none;" src="//player.bilibili.com/player.html?isOutside=true&aid=114937317820448&bvid=BV1s68dztE7x&cid=31364350797&p=1" scrolling="no" frameborder="no" allowfullscreen="true"></iframe>
-</div>
-
+      type: primary
+    - text: 了解建筑计划
+      link: #building
+      type: secondary
 features:
-  - icon: 🏰
-    title: 服务器介绍
-    details: 星创StarShineMC 致力于打造自由、开放、友好的 Minecraft 社区，欢迎每一位玩家加入！
+  - icon: 🌱
+    title: 生存模式
+    details: 保留Minecraft核心体验的纯净生存，原版矿物分布 + 优化生态循环，新玩家基础资源 +5%额外掉落，分阶段解锁科技，新老玩家差距缩小40%
     link: /
-    linkText: 没写
+    linkText: 了解更多
+  - icon: ⚡
+    title: 粘液科技 (Slimefun)
+    details: 从基础工具到量子科技的渐进发展：🥔 土豆时代 | ⚙️ 工业黎明 | 🌌 量子纪元，拒绝资源通胀，真正的乐趣来自亲手升级的过程
+    link: /
+    linkText: 了解更多
   - icon: ⚔️
-    title: 玩法特色
-    details: 多样化玩法与独特内容，生存、创造、活动、任务应有尽有，等你探索！
+    title: PvP竞技场
+    details: 即将震撼上线！🛏️ 起床战争(BedWars)：守护床铺，用Slimefun科技逆袭！☁️ 空岛战争(SkyWars)：在浮空岛上用魔法与科技对决
     link: /
-    linkText: 没写
+    linkText: 了解更多
+  - icon: 🏗️
+    title: 建筑师扶持计划
+    details: 全网独家！土地：免费申请+可扩建 | 资源：提交清单→48h内发放 | 权限：飞行/WE/创造施工权限 | 奖励：500~10000+星空币+专属称号
+    link: #building
+    linkText: 了解计划
+  - icon: 🏆
+    title: 建筑验收奖励
+    details: 🏠 小型建筑：500-1000 星空币 + 「星光小匠」称号 | 🏢 中型建筑：2000-5000 星空币 + 专属传送点 | 🏰 地标建筑：10000+ 星空币 + 「星筑大师」终身称号
+    link: #building
+    linkText: 了解奖励
   - icon: 👥
-    title: 玩家社区
-    details: 参与社区讨论、活动与分享，结识志同道合的伙伴，畅聊游戏与生活。
-    link: https://qm.qq.com/q/yCemxvimCQ
-    linkText: 加入社区
-  - icon: 🛠️
-    title: 资源下载
-    details: 提供客户端、补丁、材质包等相关资源，助你畅玩服务器。
+    title: 服务器团队
+    details: 服主 #A | 荣誉服主 Mu_xinf | 建筑 yo、冥、豁达 | 技术 Qicwken | 摸鱼仔 QD_OS，星光StarShine的核心成员
     link: /
-    linkText: 加群下载
-  - icon: 📢
-    title: 最新公告
-    details: 获取服务器最新动态、活动与维护公告，第一时间掌握重要信息。
-    link: /ZNPCsPlus
-    linkText: 查看公告
-  - icon: 💬
-    title: 联系与反馈
-    details: 有问题或建议？欢迎通过社区或联系方式与我们交流。
+    linkText: 了解更多
+  - icon: 💰
+    title: 星空币经济体系
+    details: 小游戏胜利→300~2000币 | 建筑验收→最高10000+币 | 每月活动→万圣节"幽灵出没" | 老玩家带新→「星光导师」专属奖励
     link: /
-    linkText: 没写
-  - icon: ⭐
+    linkText: 了解更多
+  - icon: 🌟
     title: 加入星创StarShineMC
-    details: '<small class="bottom-small">用心打造属于你的 Minecraft 世界，期待你的加入！</small>'
-    link: /
----
+    details: "🥔 今日种下土豆 | 🚀 明日造出火箭 | ⚡ 现在加入我们！"
+    link: https://qm.qq.com/q/yCemxvimCQ
+    linkText: 立即加入
 
-<style>
-
-/*爱的魔力转圈圈*/
+/* 爱的魔力转圈圈 */
 .m-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);
   transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
@@ -74,21 +72,438 @@ features:
   text-align: right;
 }
 
+/* 优化后的features模糊效果 */
 .m-home-layout .features .item {
-  background: rgba(255, 255, 255, 0.35) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
+  background: rgba(15, 23, 42, 0.75) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
   border-radius: 18px !important;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08) !important;
-  border: 1px solid rgba(255,255,255,0.18) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+  border: 1px solid rgba(139, 92, 246, 0.25) !important;
+  transition: all 0.3s ease !important;
+  color: #f1f5f9 !important;
 }
-</style>
 
-<style>
+/* 卡片悬停效果 */
+.m-home-layout .features .item:hover {
+  transform: translateY(-5px);
+  border-color: rgba(139, 92, 246, 0.45) !important;
+  box-shadow: 0 8px 25px rgba(109, 40, 217, 0.3) !important;
+  background: rgba(20, 30, 50, 0.8) !important;
+}
+
+/* 标题渐变效果 */
+.m-home-layout .features .item h3 {
+  background: linear-gradient(90deg, #f1f5f9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+/* 描述文字颜色 */
+.m-home-layout .features .item .details {
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+/* 链接样式 */
+.m-home-layout .features .item .link {
+  color: #8b5cf6;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.m-home-layout .features .item .link:hover {
+  color: #6d28d9;
+  text-decoration: underline;
+}
+
+/* 英雄区域按钮样式 */
+.m-home-layout .hero .actions .action-button.primary {
+  background: linear-gradient(90deg, #6d28d9, #4c1d95);
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.m-home-layout .hero .actions .action-button.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.m-home-layout .hero .actions .action-button.secondary {
+  background: transparent;
+  border: 2px solid #8b5cf6;
+  color: #c7d2fe;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.m-home-layout .hero .actions .action-button.secondary:hover {
+  background: rgba(109, 40, 217, 0.15);
+  color: #d8b4fe;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* 英雄区域文字样式 */
+.m-home-layout .hero .name {
+  font-size: 2.5rem !important;
+  background: linear-gradient(90deg, #f1f5f9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.m-home-layout .hero .text {
+  font-size: 1.5rem !important;
+  color: #c7d2fe !important;
+}
+
+.m-home-layout .hero .tagline {
+  font-size: 1.2rem !important;
+  color: #94a3b8 !important;
+}
+
+/* 背景设置 */
 body {
   background: url('/bg.png') no-repeat center center fixed;
   background-size: cover;
   opacity: 0.98;
   z-index: -1;
 }
-</style>
+
+/* 建筑师扶持计划区域样式 */
+#building {
+  padding: 3rem 0;
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 20px;
+  margin: 2rem 0;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+#building .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+#building .section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#building .badge {
+  display: inline-block;
+  background: linear-gradient(90deg, #6d28d9, #4c1d95);
+  color: white;
+  padding: 0.3rem 1.2rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  letter-spacing: 1px;
+}
+
+#building .section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #f1f5f9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+#building .section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6, #22d3ee);
+  border-radius: 2px;
+}
+
+#building .section-subtitle {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#building .comparison-container {
+  overflow-x: auto;
+  border-radius: 16px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+#building .comparison-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+#building .comparison-table th, 
+#building .comparison-table td {
+  padding: 0.8rem 1rem;
+  text-align: center;
+  border: 1px solid rgba(139, 92, 246, 0.15);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+#building .comparison-table th {
+  background: linear-gradient(135deg, #6d28d9, #4c1d95);
+  color: white;
+  font-weight: 600;
+}
+
+#building .comparison-table tr:nth-child(even) {
+  background: rgba(30, 41, 59, 0.5);
+}
+
+#building .table-cell-highlight {
+  background: rgba(109, 40, 217, 0.2);
+  color: #c7d2fe;
+  font-weight: 600;
+}
+
+#building .rewards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+#building .reward-card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+#building .reward-tier {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+#building .tier-small {
+  background: rgba(139, 92, 246, 0.1);
+}
+
+#building .tier-medium {
+  background: rgba(6, 182, 212, 0.1);
+}
+
+#building .tier-landmark {
+  background: rgba(245, 158, 11, 0.15);
+}
+
+#building .reward-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+#building .reward-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#building .reward-amount {
+  font-size: 0.95rem;
+  color: #fbbf24;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+#building .reward-badge {
+  background: linear-gradient(90deg, #8b5cf6, #6d28d9);
+  color: white;
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+}
+
+#building .reward-benefits {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+#building .process-steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1.2rem 0;
+}
+
+#building .step {
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 12px;
+  padding: 0.8rem;
+  text-align: center;
+  flex: 1;
+  min-width: 100px;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  font-size: 0.85rem;
+}
+
+#building .step-number {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6d28d9, #4c1d95);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin: 0 auto 0.5rem;
+}
+
+/* 服务器团队区域样式 */
+#team {
+  padding: 3rem 0;
+}
+
+#team .section-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#team .section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #f1f5f9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#team .section-subtitle {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+#team .team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+#team .team-member {
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 16px;
+  padding: 1.2rem;
+  text-align: center;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  transition: all 0.3s ease;
+}
+
+#team .team-member:hover {
+  transform: translateY(-5px);
+  border-color: rgba(139, 92, 246, 0.4);
+}
+
+#team .member-avatar {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6d28d9, #4c1d95);
+  margin: 0 auto 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: white;
+}
+
+#team .member-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #f1f5f9;
+}
+
+#team .member-role {
+  color: #8b5cf6;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+#team .member-qq {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  background: rgba(15, 23, 42, 0.5);
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* 建筑作品展示区域 */
+#screenshots {
+  padding: 3rem 0;
+  background: rgba(15, 23, 42, 0.5);
+  border-radius: 20px;
+  margin: 2rem 0;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+#screenshots .section-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#screenshots .section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #f1f5f9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#screenshots .section-subtitle {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+#screenshots .screenshots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+#screenshots .screenshot-item {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+#screenshots .screenshot-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(109, 40, 217, 0.25);
+}
+
+#screenshots .screenshot-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 0.3s ease;
+}
